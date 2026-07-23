@@ -2,11 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import { CartProvider } from "./context/CartContext";
-import { WishlistProvider } from "./context/WishlistContext";
-import { ProductsProvider } from "./context/ProductsContext";
+import { CartProvider } from "./Context/CartContext";
+import { WishlistProvider } from "./Context/WishlistContext";
+import { ProductsProvider } from "./Context/ProductsContext";
 import { Toaster } from "react-hot-toast";
-import { ThemeProvider } from "./context/ThemeContext";
+import { ThemeProvider } from "./Context/ThemeContext";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
