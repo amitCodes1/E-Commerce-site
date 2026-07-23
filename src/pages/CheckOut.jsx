@@ -28,8 +28,7 @@ const Checkout = () => {
 
     clearCart();
 
-    navigate("/success");
-  };
+navigate("/payment");  };
 
   return (
     <div className="max-w-xl mx-auto px-6 py-10">
